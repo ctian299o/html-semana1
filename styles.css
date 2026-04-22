@@ -1,6 +1,6 @@
 :root {
     --color-principal: #77ccc6;
-    --color-fondo: rgba(0, 0, 0, 0.5);
+    --color-fondo: rgba(19, 11, 11, 0.5);
     --color-texto: white;
 }
 
@@ -38,7 +38,7 @@ section {
     padding: 40px;
     width: 80%;
     max-width: 800px;
-    background: rgba(255,255,255,0.1);
+    background: rgba(31, 11, 11, 0.1);
     border-radius: 20px;
 }
 
@@ -74,4 +74,3 @@ button {
         width: 90%;
     }
 }
-

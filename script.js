@@ -1,12 +1,9 @@
-function cambiarTexto() {
-    document.getElementById("texto").textContent = "¡Texto cambiado con JavaScript!";
+alert("¡Que miras bobo! ¡Welcome to my websitel! ");
+
+function ocultar() {
+    document.getElementById("texto").style.display = "none";
 }
 
-function mostrarMensaje() {
-    alert("Bienvenido a mi portafolio ");
-}
-
-function toggleContenido() {
-    let seccion = document.getElementById("sobre-mi");
-    seccion.style.display = seccion.style.display === "none" ? "block" : "none";
+function mostrar(){
+    document.getElementById("texto").style.display = "block";
 }
