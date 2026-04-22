@@ -1,17 +1,17 @@
 My Portfolio Website
 
- About
+📄 About
 
 This is my simple website.
 
 My name is Cristian Ortiz.
 I am from Barranquilla, Colombia.
 I am 21 years old.
-I learn we development.
+I learn web development.
 
+---
 
-
- What is this?
+💻 What is this?
 
 This is a portfolio website.
 
@@ -21,14 +21,16 @@ It has:
 - Project section
 - Contact form
 
+---
 
- Pages
+🧩 Pages
 
 - Home → main page
 - Mascotas felices → project page
 
+---
 
- Technologies
+🛠️ Technologies
 
 I use:
 
@@ -36,29 +38,30 @@ I use:
 - CSS
 - JavaScript
 
+---
 
- Features
+🎨 Features
 
 - Simple design
 - Responsive (works on phone)
 - Buttons to hide and show text
 - Background image
 
+---
 
-
- How to use
+▶️ How to use
 
 1. Download the project
 2. Open "index.html" in browser
 
+---
 
-
- Contact
+📬 Contact
 
 Write your name and email in the form.
 
+---
 
-
- Author
+🚀 Author
 
 Cristian Ortiz
