@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Cristian</title>
 </head>
 
 <body>
-    <header>
-        <h1>Cristian Ortiz</h1>
-        <nav>
+
+<header>
+    <h1>Cristian Ortiz</h1>
+    <nav>
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#proyecto">Proyecto</a>
         <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
-    <section id="sobre-mi">
-        <h2>Sobre mi</h2>
-            <p>Hola buenas me llamo Cristian Ortiz y actualmente estoy estudiando un tecnico en programacion en Riwi. Me interesa la tecnologia y aprender cada dia mas sobre desarrollo de sotfware</p>
-        </section>
-        <ul>
-            <section id="Proyectos">
-                <h2>Proyecto</h2>
-                <li><a href="mascotas.html">mascotas felices</a></li>
-            </ul>    
-        </section>
-       <section id="contacto">
+    </nav>
+</header>
+
+<section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p id="texto">Hola, me llamo Cristian Orti, soy de Barranquilla Colombia. Actualmente estoy estudiando en Riwi </p>
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+</section>
+
+<section id="proyecto">
+    <h2>Proyecto</h2>
+    <ul>
+        <li><a href="mascotas.html">Mascotas felices</a></li>
+    </ul>
+</section>
+
+<section id="contacto">
     <h2>Contacto</h2>
     <form>
-        
-        <input type="text" name="nombre" placeholder="Tu nombre" required>
-        
-
-        <input type="email" name="email" placeholder="Tu correo electrónico" required>
-        
+        <input type="text" placeholder="Tu nombre" required>
+        <input type="email" placeholder="Tu correo electrónico" required>
         <button type="submit">Enviar</button>
     </form>
-
 </section>
+
+<button onclick="mostrarMensaje()">Mostrar bienvenida</button>
+
+<script src="script.js"></script>
 </body>
 </html>

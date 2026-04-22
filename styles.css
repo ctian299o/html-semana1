@@ -1,71 +1,77 @@
+:root {
+    --color-principal: #77ccc6;
+    --color-fondo: rgba(0, 0, 0, 0.5);
+    --color-texto: white;
+}
+
 body {
-       background: linear-gradient(rgba(158, 171, 172, 0.728), rgba(26, 46, 44, 0.6)), 
-                url('https://blacknerdproblems.com/wp-content/uploads/2024/01/Frieren-Beyond-Journeys-End-1-1024x576.jpg');
-                 background-size: cover; 
-                 background-repeat: no-repeat;
-                 background-position: center;
-                 background-attachment: fixed;
-                 color: rgba(255, 255, 255, 0.807);
-                font-family: sans-serif;
+    background: linear-gradient(rgba(129,146,148,0.7), rgba(26,46,44,0.6)),
+    url('https://blacknerdproblems.com/wp-content/uploads/2024/01/Frieren-Beyond-Journeys-End-1-1024x576.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
     margin: 0;
-                
-                
-                
-                }
+}
+
+
 header {
-    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-fondo);
     padding: 20px;
-    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none; 
-    margin: 0 15px; 
+    color: var(--color-texto);
+    text-decoration: none;
     font-weight: bold;
-}
-
-nav a:hover {
-    color: #77ccc6; 
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(5px); 
-    margin: 30px auto;
-    padding: 90px;
-    width: 80%; 
+    margin: 20px auto;
+    padding: 40px;
+    width: 80%;
     max-width: 800px;
-    border-radius: 80px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
 }
 
-form {
-    display: flex;
-    flex-direction: column; 
-    gap: 15px;
-    max-width: 400px;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-input {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-}
 
 button {
-    background-color: #77ccc6;
-    color: #1a2e2c;
-    padding: 12px;
+    background: var(--color-principal);
+    padding: 10px;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
     cursor: pointer;
-    transition: 0.3s;
 }
 
-button:hover {
-    background-color: #ffffff;
-    transform: scale(1.05);
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    section {
+        width: 95%;
+        padding: 20px;
+    }
 }
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    section {
+        width: 90%;
+    }
+}
+
