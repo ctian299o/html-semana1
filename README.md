@@ -1,8 +1,8 @@
-**My Portfolio Website
+My Portfolio Website
 
  About
 
-**This is my simple website.
+This is my simple website.
 
 My name is Cristian Ortiz.
 I am from Barranquilla, Colombia.
@@ -11,7 +11,7 @@ I learn we development.
 
 
 
- **What is this?
+ What is this?
 
 This is a portfolio website.
 
