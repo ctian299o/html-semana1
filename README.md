@@ -1,6 +1,6 @@
 My Portfolio Website
 
-📄 About
+ About
 
 This is my simple website.
 
@@ -11,7 +11,7 @@ I learn web development.
 
 ---
 
-💻 What is this?
+What is this?
 
 This is a portfolio website.
 
@@ -23,14 +23,14 @@ It has:
 
 ---
 
-🧩 Pages
+ Pages
 
 - Home → main page
 - Mascotas felices → project page
 
 ---
 
-🛠️ Technologies
+ Technologies
 
 I use:
 
@@ -40,7 +40,7 @@ I use:
 
 ---
 
-🎨 Features
+ Features
 
 - Simple design
 - Responsive (works on phone)
@@ -49,19 +49,13 @@ I use:
 
 ---
 
-▶️ How to use
+How to use
 
 1. Download the project
 2. Open "index.html" in browser
 
 ---
 
-📬 Contact
+Contact
 
 Write your name and email in the form.
-
----
-
-🚀 Author
-
-Cristian Ortiz
